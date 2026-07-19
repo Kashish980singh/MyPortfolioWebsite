@@ -1,0 +1,73 @@
+    @import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Montenegrin+Gothic+One&family=Playwrite+ID:wght@100..400&display=swap');
+          
+      
+
+    body {
+        font-family: "Montenegrin Gothic One", serif !important;
+        font-weight: 400 !important;
+        font-style: normal !important;
+
+
+    }
+
+    span.text-primary {
+        color: blue !important;
+
+    }
+    .navbar-brand span{
+        color: blue !important;
+    }
+
+    .nav-link:hover{
+        color: blue !important;
+    }
+
+    .hero-section{
+        height: 100vh;
+        background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0.7)) , url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfIik5eXCJbcrQBhfLDnveXcXyJW0E_dpYhycHQivIjbPfJQwrmzQ4ua2N&s=10);
+        background-position: center;
+        background-size: cover;
+        color: white;
+    }
+
+    section{
+        padding:  80px 0;
+    }
+
+  .card{
+    transition: transform 0.3s ease;
+  }
+    .card:hover{
+        transform: translateY(-10px);
+    }
+
+    .timeline-item::before{
+         
+        content: '';
+        height: 12px;
+        width: 12px;
+        background-color: blue;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: -6px;
+    }
+    
+    .form-tag{
+     display: flex;
+     gap: 20px;
+    }
+    .input-area{
+        margin-left: 20px;
+        margin-top: 20px;
+       
+        border-radius: 10px;
+        text-decoration: none;
+    }
+
+  .get-in{
+    display: flex;
+   justify-content: center;
+   justify-items: center;
+    
+  }
